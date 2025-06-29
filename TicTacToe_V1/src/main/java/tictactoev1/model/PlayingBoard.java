@@ -1,8 +1,8 @@
 package tictactoev1.model;
 
 public class PlayingBoard {
-    private int boardSize;
-    private PlayingPiece[][] board;
+    private final int boardSize;
+    private final PlayingPiece[][] board;
 
     public PlayingBoard(int size) {
         this.boardSize = size;

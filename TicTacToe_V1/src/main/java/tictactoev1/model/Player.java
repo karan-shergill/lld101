@@ -1,8 +1,8 @@
 package tictactoev1.model;
 
 public class Player {
-    private String playerName;
-    private PlayingPiece playingPiece;
+    private final String playerName;
+    private final PlayingPiece playingPiece;
 
     public Player(String name, PlayingPiece piece) {
         this.playerName = name;

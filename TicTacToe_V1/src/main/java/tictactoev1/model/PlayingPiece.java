@@ -1,7 +1,7 @@
 package tictactoev1.model;
 
 public class PlayingPiece {
-    private PlayingPieceType playingPieceType;
+    private final PlayingPieceType playingPieceType;
 
     public  PlayingPiece(PlayingPieceType playingPieceType) {
         this.playingPieceType = playingPieceType;
