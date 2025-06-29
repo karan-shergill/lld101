@@ -28,12 +28,12 @@ public class TicTacToeGame {
         String[] player = input.split(",");
         String player1Piece = player[1];
         Player player1 = new Player(player[0],
-                player1Piece.equals("X") ? new PlayingPieceX(PlayingPieceType.X) : new PlayingPieceO(PlayingPieceType.O));
+                player1Piece.equals("X") ? new PlayingPiece(PlayingPieceType.X) :  new PlayingPiece(PlayingPieceType.O));
 
         System.out.println("Enter player 2 name");
         input = inputScanner.nextLine();
         Player player2 = new Player(input,
-                player1Piece.equals("X") ? new PlayingPieceO(PlayingPieceType.O) : new PlayingPieceO(PlayingPieceType.X));
+                player1Piece.equals("X") ? new PlayingPiece(PlayingPieceType.O) :  new PlayingPiece(PlayingPieceType.X));
 
         this.players.add(player1);
         this.players.add(player2);
@@ -60,6 +60,7 @@ public class TicTacToeGame {
             players.addLast(currPlayerTurn);
 
             if (checkIfCurrPlayerIsWinner(currPlayerTurn.getPlayingPiece(), row, col)) {
+                inputScanner.close();
                 return currPlayerTurn.getPlayerName();
             }
 
