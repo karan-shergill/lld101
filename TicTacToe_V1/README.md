@@ -11,7 +11,7 @@
 
 ## UML
 
-![TicTacToe_V1_UML](/../images/TicTacToe_V1_UML.png)
+![TicTacToe_V1_UML](/images/TicTacToe_V1_UML.png)
 
 # Feedback from LLM models
 
