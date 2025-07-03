@@ -8,6 +8,10 @@
 ## What Can be improved
 - TicTacToeGame class is very big and to much going on. This could had been broken into smaller classes.
 
+## UML
+
+![TicTacToe_V2_UML](/../images/TicTacToe_V2_UML.png)
+
 # Feedback from LLM - LLD Interview Feedback: TicTacToe Game Implementation
 
 ## 🎯 **Overall Assessment**

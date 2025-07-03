@@ -3,12 +3,15 @@
 - No design patterns been used in this version
 - No use of interface of any major OOPs principle like SOLID
 
-
 ## Learning
 
 - Use Deque in case of game LLD where player turn will come in a circle
 - Learning to break code into smaller models - classes
 - Scanner to take input for user's move and split in an array
+
+## UML
+
+![TicTacToe_V1_UML](/../images/TicTacToe_V1_UML.png)
 
 # Feedback from LLM models
 
