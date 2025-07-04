@@ -10,6 +10,7 @@
 
 ## UML
 
+![Chess_V1_UML_2](/images/Chess_V1_UML_2.png)
 ![Chess_V1_UML](/images/Chess_V1_UML.png)
 
 # LLM Feedback

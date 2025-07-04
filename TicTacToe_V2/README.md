@@ -10,6 +10,7 @@
 
 ## UML
 
+![TicTacToe_V2_UML_2](/images/TicTacToe_V2_UML_2.png)
 ![TicTacToe_V2_UML](/images/TicTacToe_V2_UML.png)
 
 # Feedback from LLM - LLD Interview Feedback: TicTacToe Game Implementation

@@ -10,7 +10,7 @@
 - Scanner to take input for user's move and split in an array
 
 ## UML
-
+![TicTacToe_V1_UML_2](/images/TicTacToe_V1_UML_2.png)
 ![TicTacToe_V1_UML](/images/TicTacToe_V1_UML.png)
 
 # Feedback from LLM models
