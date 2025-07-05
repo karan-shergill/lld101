@@ -12,7 +12,7 @@
    4. Singleton design pattern: can always use for single instance of any game 
    5. Factory design pattern: can always use for HUMAN or AI object initialization | Game piece initialization
    6. Strategy design pattern: diff game pieces(of same family) have diff strategy for movement
-   7. Game status enum
+   7. Its a great idea to have a game status enum
    8. Board game interface for actual game for future extension
    9. Can have a move object to store all the moves played by the players in some data structure like list/array
 4. All LLD design will have some kind of input taken from the user, make sure input is wrapped around try catch block, check and throw exception or log error in case of incorrect format.
