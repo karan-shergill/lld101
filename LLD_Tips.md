@@ -5,6 +5,7 @@
    1. Use a single Scanner instance for System.in throughout your application 
    2. Pass Scanner instances as parameters between methods 
    3. Close Scanner only when your application is completely finished with input
+   4. Exception cane thrown while parsing: NumberFormatException
 3. Game kind of LLD problem
    1. Use Dequeue in case of a game type design where turn of players comes one by one.
    2. Consider game as person vs person / person vs AI 
@@ -17,3 +18,4 @@
    9. Can have a move object to store all the moves played by the players in some data structure like list/array
 4. All LLD design will have some kind of input taken from the user, make sure input is wrapped around try catch block, check and throw exception or log error in case of incorrect format.
 5. All Enums in same module, all constants in a file(prohibit hardcoding in code)
+6. If time permits can have custom exception in the code
