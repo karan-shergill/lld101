@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/Chess/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Chess/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ParkingLot/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ParkingLot/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SnakeAndFood/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SnakeAndFood/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SnakesAndLadders/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SnakesAndLadders/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TicTacToe/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TicTacToe/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LLD_Chess/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LLD_Chess/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LLD_ParkingLot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LLD_ParkingLot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LLD_SnakeAndFood/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LLD_SnakeAndFood/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LLD_SnakesAndLadders/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LLD_SnakesAndLadders/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LLD_TicTacToe/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LLD_TicTacToe/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TicTacToe_V1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TicTacToe_V1/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tic-tac-toe_v1/src/main/java" charset="UTF-8" />
