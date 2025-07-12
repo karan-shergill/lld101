@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/Chess_V1/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Chess_V1/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ParkingLot_V1/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ParkingLot_V1/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SnakeAndFood_V1/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SnakeAndFood_V1/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SnakesAndLadders_V1/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SnakesAndLadders_V1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Chess/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Chess/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ParkingLot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ParkingLot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SnakeAndFood/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SnakeAndFood/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SnakesAndLadders/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SnakesAndLadders/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TicTacToe/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TicTacToe/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TicTacToe_V1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TicTacToe_V1/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TicTacToe_V2/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TicTacToe_V2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tic-tac-toe_v1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tic-tac-toe_v1/src/main/resources" charset="UTF-8" />
   </component>
