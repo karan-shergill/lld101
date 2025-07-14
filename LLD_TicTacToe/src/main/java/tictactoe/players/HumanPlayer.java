@@ -1,7 +1,8 @@
-package tictactoe.model.player;
+package tictactoe.players;
 
 import tictactoe.model.GameBoard;
-import tictactoe.model.PlayingPiece;
+import tictactoe.constants.PlayingPiece;
+import tictactoe.model.Player;
 
 public class HumanPlayer extends Player {
     public HumanPlayer(String playerName, PlayingPiece playerPlayingPiece) {
@@ -13,7 +14,7 @@ public class HumanPlayer extends Player {
         if (!gameBoard.isValidMove(row, col)) {
             return false;
         }
-        gameBoard.getBoard()[row][col] = playerPlayingPiece;
+        gameBoard.getBoard()[row][col] = super.getPlayerPlayingPiece();
         return true;
     }
 }

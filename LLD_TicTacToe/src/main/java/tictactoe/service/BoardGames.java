@@ -1,4 +1,4 @@
-package tictactoe;
+package tictactoe.service;
 
 public interface BoardGames {
     public void initiateGame();

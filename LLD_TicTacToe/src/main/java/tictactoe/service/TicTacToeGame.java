@@ -1,10 +1,11 @@
-package tictactoe;
+package tictactoe.service;
 
+import tictactoe.constants.GameStatus;
+import tictactoe.constants.PlayingPiece;
 import tictactoe.model.GameBoard;
-import tictactoe.model.PlayingPiece;
-import tictactoe.model.player.Player;
-import tictactoe.model.player.PlayerFactory;
-import tictactoe.model.player.PlayerType;
+import tictactoe.model.Player;
+import tictactoe.factory.PlayerFactory;
+import tictactoe.constants.PlayerType;
 
 import java.util.Deque;
 import java.util.LinkedList;
@@ -14,6 +15,7 @@ public class TicTacToeGame implements BoardGames {
     Deque<Player> players;
     GameBoard gameBoard;
     private Scanner inputScanner;
+    GameStatus gameStatus;
 
     public TicTacToeGame() {
         initiateGame();
@@ -42,7 +44,8 @@ public class TicTacToeGame implements BoardGames {
         }
 
         int size = getBoardSizeFromPlayer();
-        gameBoard = new GameBoard(size);
+        gameBoard = GameBoard.getGameBoardInstance(size);
+        this.gameStatus = GameStatus.START;
     }
 
     private int getBoardSizeFromPlayer() {
@@ -54,10 +57,11 @@ public class TicTacToeGame implements BoardGames {
 
     @Override
     public void playGame() {
-        boolean gameInProgress = true;
-        while (gameInProgress) {
+        gameStatus = GameStatus.IN_PROGRESS;
+        while (gameStatus == GameStatus.IN_PROGRESS) {
             if (!gameBoard.hasEmptyCell()) {
                 // No cell is empty
+                gameStatus = GameStatus.TIE;
                 break;
             }
 
@@ -75,11 +79,11 @@ public class TicTacToeGame implements BoardGames {
 
             if (checkIfCurrPlayerWonTheGame(rowAndCol[0], rowAndCol[1], currPlayer.getPlayerPlayingPiece())) {
                 System.out.println(currPlayer.getPlayerName() + " Congratulations! You WON the game.");
-                gameInProgress = false;
+                gameStatus = GameStatus.END;
                 break;
             }
         }
-        if (gameInProgress) {
+        if (gameStatus == GameStatus.TIE) {
             System.out.println("No Winner! Game TIE");
         }
     }

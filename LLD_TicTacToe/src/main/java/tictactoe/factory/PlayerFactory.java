@@ -1,6 +1,10 @@
-package tictactoe.model.player;
+package tictactoe.factory;
 
-import tictactoe.model.PlayingPiece;
+import tictactoe.constants.PlayingPiece;
+import tictactoe.constants.PlayerType;
+import tictactoe.model.Player;
+import tictactoe.players.AIPlayer;
+import tictactoe.players.HumanPlayer;
 
 public class PlayerFactory {
     public static Player createPlayer(PlayerType playerType, String playerName, PlayingPiece playingPiece) {

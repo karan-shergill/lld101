@@ -1,12 +1,24 @@
 package tictactoe.model;
 
+import tictactoe.constants.PlayingPiece;
+
+// Singleton DP: single instance of board in a game
 public class GameBoard {
+    public static GameBoard gameBoardInstance;
     int size;
     PlayingPiece[][] board;
 
-    public GameBoard(int size) {
+    private GameBoard(int size) {
         this.size = size;
         board = new PlayingPiece[size][size];
+    }
+
+    // thread safe
+    public synchronized static GameBoard getGameBoardInstance(int size) {
+        if (gameBoardInstance == null) {
+            gameBoardInstance = new GameBoard(size);
+        }
+        return gameBoardInstance;
     }
 
     public int getSize() {

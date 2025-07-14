@@ -1,7 +1,6 @@
-package tictactoe.model.player;
+package tictactoe.model;
 
-import tictactoe.model.GameBoard;
-import tictactoe.model.PlayingPiece;
+import tictactoe.constants.PlayingPiece;
 
 public abstract class  Player {
     String playerName;
