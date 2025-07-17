@@ -1,0 +1,35 @@
+- constants
+  - GameStatus ✅
+  - ChessPieces ✅
+  - PlayerType ✅
+- modal
+  - Player ✅
+  - Piece ✅
+  - Board
+  - Cell ✅
+  - Move ✅
+- playerType
+  - Human ✅
+  - AI ✅
+- pieceType
+  - Rook ✅
+  - Bishop ✅
+  - Knight ✅
+  - King ✅
+  - Queen ✅
+  - Pawn ✅
+- factory
+  - PlayerFactory ✅
+  - PieceFactory ✅
+- strategy
+    - RookStrategy ✅
+    - BishopStrategy ✅
+    - KnightStrategy ✅
+    - KingStrategy ✅
+    - QueenStrategy ✅
+    - PawnStrategy ✅
+    - PlayStrategy ✅
+- service
+  - Games ✅
+  - ChessGame ✅
+    

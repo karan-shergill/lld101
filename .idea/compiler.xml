@@ -6,14 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="LLD_Chess_16July2025" />
         <module name="tic-tac-toe_v1" />
-        <module name="LLD_SnakeAndFood_15July2025" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="LLD_Chess" target="22" />
       <module name="LLD_ParkingLot" target="22" />
       <module name="LLD_SnakeAndFood" target="22" />
+      <module name="LLD_SnakeAndFood_15July2025" target="22" />
       <module name="LLD_SnakesAndLadders" target="22" />
       <module name="LLD_TicTacToe" target="22" />
       <module name="LLD_TicTacToe_14july2025" target="22" />
