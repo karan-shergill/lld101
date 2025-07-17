@@ -1,5 +1,9 @@
 # Parking Lot V1
 
+## Class Diagram
+
+![Parking Lot V1 Class Diagram](../uml_diagrams/LLD_ParkingLot_V1.svg)
+
 ## LLD Requirements Fulfilled
 
 ### 1. **Scalability & Extensibility**

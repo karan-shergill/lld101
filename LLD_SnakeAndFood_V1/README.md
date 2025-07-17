@@ -1,5 +1,9 @@
 # Snake and Food V1
 
+## Class Diagram
+
+![Snake and Food V1 Class Diagram](../uml_diagrams/LLD_SnakeAndFood_V1.svg)
+
 ## LLD Requirements Fulfilled
 
 ### 1. **Scalability & Extensibility**

@@ -1,5 +1,9 @@
 # Snakes and Ladders V1
 
+## Class Diagram
+
+![Snakes and Ladders V1 Class Diagram](../uml_diagrams/LLD_SnakesAndLadders_V1.svg)
+
 ## LLD Requirements Fulfilled
 
 ### 1. **Scalability & Extensibility**

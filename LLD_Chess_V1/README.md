@@ -1,5 +1,9 @@
 # Chess V1
 
+## Class Diagram
+
+![Chess V1 Class Diagram](../uml_diagrams/LLD_Chess_V1.svg)
+
 ## LLD Requirements Fulfilled
 
 ### 1. **Scalability & Extensibility**

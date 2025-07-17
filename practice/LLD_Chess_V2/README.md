@@ -1,5 +1,9 @@
 # Chess V2 (Practice Implementation)
 
+## Class Diagram
+
+![Chess V2 Class Diagram](../../uml_diagrams/LLD_Chess_V2.svg)
+
 ## LLD Requirements Fulfilled
 
 ### 1. **Scalability & Extensibility**

@@ -1,5 +1,9 @@
 # Tic Tac Toe V1
 
+## Class Diagram
+
+![Tic Tac Toe V1 Class Diagram](../uml_diagrams/LLD_TicTacToe_V1.svg)
+
 ## LLD Requirements Fulfilled
 
 ### 1. **Scalability & Extensibility**
