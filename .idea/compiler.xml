@@ -13,6 +13,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="LLD_Chess" target="22" />
+      <module name="LLD_Elevator_V2" target="22" />
       <module name="LLD_ParkingLot" target="22" />
       <module name="LLD_SnakeAndFood" target="22" />
       <module name="LLD_SnakeAndFood_15July2025" target="22" />
