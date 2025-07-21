@@ -9,6 +9,7 @@ Prerequisite: [Object-Oriented Programming & Design Patterns](https://github.com
 | Tic Tac Toe | Classic 3x3 grid game | Completed | 2 |
 | Snake And Food | Snake game with different food types | Completed | 2 |
 | Chess | Complete chess game implementation | Completed | 2 |
+| Elevator System | Multi-elevator building management system | Completed | 1 |
 | Parking Lot | Multi-level parking management system | Completed | 1 |
 | Snakes And Ladders | Board game with obstacles | Completed | 1 |
 
@@ -41,6 +42,15 @@ Prerequisite: [Object-Oriented Programming & Design Patterns](https://github.com
 | **Key Algorithms** | Piece movement validation, Check/Checkmate detection, Castling logic |
 | **Core Components** | Pieces (King, Queen, Rook, etc.), Board, Movement strategies, Game rules |
 
+### Elevator System
+
+| Aspect | Details |
+|--------|---------|
+| **Code Implementations** | [Practice_1](https://github.com/karan-shergill/lld101/tree/main/LLD_Elevator_V1) |
+| **Design Patterns** | Singleton (controller), Factory (elevator types), Strategy (scheduling algorithms), Observer (display updates) |
+| **Key Algorithms** | FCFS/Nearest/SCAN/LoadBalancing scheduling, Priority queue request management, Direction-aware optimization |
+| **Core Components** | ElevatorController, Building, Floor, Elevator types (Passenger/Cargo/Service), Display, Request handling |
+
 ### Parking Lot System
 
 | Aspect | Details |
@@ -63,8 +73,8 @@ Prerequisite: [Object-Oriented Programming & Design Patterns](https://github.com
 
 | Pattern | Use Cases | Purpose |
 |---------|-----------|---------|
-| **Singleton** | Tic Tac Toe, Snake And Food | Ensure single game board instance |
-| **Factory** | All projects | Create objects (players, pieces, vehicles, spots) |
-| **Strategy** | All projects | Implement different behaviors (AI moves, payment methods, parking strategies) |
+| **Singleton** | Tic Tac Toe, Snake And Food, Elevator System | Ensure single game board/controller instance |
+| **Factory** | All projects | Create objects (players, pieces, vehicles, spots, elevators) |
+| **Strategy** | All projects | Implement different behaviors (AI moves, payment methods, parking/scheduling strategies) |
 | **Command** | Chess, Snakes And Ladders | Encapsulate actions (moves, dice rolls) |
-| **Observer** | Parking Lot | Update display boards and notifications |
+| **Observer** | Parking Lot, Elevator System | Update display boards and notifications |
