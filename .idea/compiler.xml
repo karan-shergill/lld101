@@ -9,6 +9,7 @@
         <module name="LLD_Chess_16July2025" />
         <module name="tic-tac-toe_v1" />
         <module name="LLD_Elevator_V1" />
+        <module name="LLD_InventoryManagement_V1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
