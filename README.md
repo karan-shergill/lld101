@@ -12,6 +12,7 @@ Prerequisite: [Object-Oriented Programming & Design Patterns](https://github.com
 | Elevator System | Multi-elevator building management system | Completed | 1 |
 | Parking Lot | Multi-level parking management system | Completed | 1 |
 | Snakes And Ladders | Board game with obstacles | Completed | 1 |
+| Inventory Management | Multi-warehouse inventory tracking system | Completed | 1 |
 
 ## Detailed Implementation
 
@@ -69,12 +70,23 @@ Prerequisite: [Object-Oriented Programming & Design Patterns](https://github.com
 | **Key Algorithms** | Board traversal, Obstacle handling, Win condition check |
 | **Core Components** | Board, Players, Obstacles (Snakes/Ladders), Dice, Game controller |
 
+### Inventory Management System
+
+| Aspect | Details |
+|--------|---------|
+| **Code Implementations** | [Practice_1](https://github.com/karan-shergill/lld101/tree/main/LLD_InventoryManagement_V1) |
+| **Design Patterns** | Singleton (inventory manager), Builder (product creation), Observer (notifications), Strategy (replenishment), Director (construction management) |
+| **Key Algorithms** | Threshold monitoring, Cross-warehouse search, Real-time notifications, Replenishment strategies |
+| **Core Components** | InventoryManager, Warehouse, Products (Grocery/Electronics/Clothing), Observers (Dashboard/Supplier), Replenishment strategies |
+
 ## Design Patterns Summary
 
 | Pattern | Use Cases | Purpose |
 |---------|-----------|---------|
-| **Singleton** | Tic Tac Toe, Snake And Food, Elevator System | Ensure single game board/controller instance |
+| **Singleton** | Tic Tac Toe, Snake And Food, Elevator System, Inventory Management | Ensure single game board/controller instance |
 | **Factory** | All projects | Create objects (players, pieces, vehicles, spots, elevators) |
-| **Strategy** | All projects | Implement different behaviors (AI moves, payment methods, parking/scheduling strategies) |
+| **Strategy** | All projects | Implement different behaviors (AI moves, payment methods, parking/scheduling/replenishment strategies) |
 | **Command** | Chess, Snakes And Ladders | Encapsulate actions (moves, dice rolls) |
-| **Observer** | Parking Lot, Elevator System | Update display boards and notifications |
+| **Observer** | Parking Lot, Elevator System, Inventory Management | Update display boards and notifications |
+| **Builder** | Inventory Management | Complex object creation with optional parameters |
+| **Director** | Inventory Management | Manage and coordinate the building process |
