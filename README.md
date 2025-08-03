@@ -13,6 +13,7 @@ Prerequisite: [Object-Oriented Programming & Design Patterns](https://github.com
 | Parking Lot | Multi-level parking management system | Completed | 1 |
 | Snakes And Ladders | Board game with obstacles | Completed | 1 |
 | Inventory Management | Multi-warehouse inventory tracking system | Completed | 1 |
+| Vehicle Rental | Multi-location vehicle rental management system | Completed | 1 |
 
 ## Detailed Implementation
 
@@ -79,14 +80,24 @@ Prerequisite: [Object-Oriented Programming & Design Patterns](https://github.com
 | **Key Algorithms** | Threshold monitoring, Cross-warehouse search, Real-time notifications, Replenishment strategies |
 | **Core Components** | InventoryManager, Warehouse, Products (Grocery/Electronics/Clothing), Observers (Dashboard/Supplier), Replenishment strategies |
 
+### Vehicle Rental System
+
+| Aspect | Details |
+|--------|---------|
+| **Code Implementations** | [Practice_1](https://github.com/karan-shergill/lld101/tree/main/LLD_VehicleRental_V1) |
+| **Design Patterns** | Singleton (rental system), Factory (vehicle creation), Strategy (payment/pricing), Observer (notifications), Template Method (vehicle hierarchy) |
+| **Key Algorithms** | Reservation lifecycle management, Dynamic pricing calculation, Multi-location inventory tracking, Real-time status updates |
+| **Core Components** | VehicleRentalSystem, RentalStore, Vehicle types (Sedan/TwoWheeler/Traveler), Reservation, Payment strategies, Observer notifications |
+
 ## Design Patterns Summary
 
 | Pattern | Use Cases | Purpose |
 |---------|-----------|---------|
-| **Singleton** | Tic Tac Toe, Snake And Food, Elevator System, Inventory Management | Ensure single game board/controller instance |
+| **Singleton** | Tic Tac Toe, Snake And Food, Elevator System, Inventory Management, Vehicle Rental | Ensure single game board/controller instance |
 | **Factory** | All projects | Create objects (players, pieces, vehicles, spots, elevators) |
-| **Strategy** | All projects | Implement different behaviors (AI moves, payment methods, parking/scheduling/replenishment strategies) |
+| **Strategy** | All projects | Implement different behaviors (AI moves, payment methods, parking/scheduling/replenishment/pricing strategies) |
 | **Command** | Chess, Snakes And Ladders | Encapsulate actions (moves, dice rolls) |
-| **Observer** | Parking Lot, Elevator System, Inventory Management | Update display boards and notifications |
+| **Observer** | Parking Lot, Elevator System, Inventory Management, Vehicle Rental | Update display boards and notifications |
 | **Builder** | Inventory Management | Complex object creation with optional parameters |
 | **Director** | Inventory Management | Manage and coordinate the building process |
+| **Template Method** | Vehicle Rental | Define common behavior with customizable parts (vehicle hierarchy) |
