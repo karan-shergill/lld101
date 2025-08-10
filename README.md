@@ -14,6 +14,7 @@ Prerequisite: [Object-Oriented Programming & Design Patterns](https://github.com
 | Snakes And Ladders | Board game with obstacles | Completed | 1 |
 | Inventory Management | Multi-warehouse inventory tracking system | Completed | 1 |
 | Vehicle Rental | Multi-location vehicle rental management system | Completed | 1 |
+| Vending Machine | Smart vending machine with state management | Completed | 1 |
 
 ## Detailed Implementation
 
@@ -89,13 +90,24 @@ Prerequisite: [Object-Oriented Programming & Design Patterns](https://github.com
 | **Key Algorithms** | Reservation lifecycle management, Dynamic pricing calculation, Multi-location inventory tracking, Real-time status updates |
 | **Core Components** | VehicleRentalSystem, RentalStore, Vehicle types (Sedan/TwoWheeler/Traveler), Reservation, Payment strategies, Observer notifications |
 
+### Vending Machine System
+
+| Aspect | Details |
+|--------|---------|
+| **Code Implementations** | [Practice_1](https://github.com/karan-shergill/lld101/tree/main/LLD_VendingMachine_V1) |
+| **Design Patterns** | State (machine states), Factory (state creation), Strategy (payment methods), Manager (separated concerns) |
+| **Key Algorithms** | State machine transitions, Greedy change calculation, Transaction processing, Inventory management |
+| **Core Components** | StateManager, PaymentManager, InventoryManager, TransactionManager, ChangeDispenser, State implementations (6 states) |
+
 ## Design Patterns Summary
 
 | Pattern | Use Cases | Purpose |
 |---------|-----------|---------|
 | **Singleton** | Tic Tac Toe, Snake And Food, Elevator System, Inventory Management, Vehicle Rental | Ensure single game board/controller instance |
-| **Factory** | All projects | Create objects (players, pieces, vehicles, spots, elevators) |
+| **Factory** | All projects | Create objects (players, pieces, vehicles, spots, elevators, states) |
 | **Strategy** | All projects | Implement different behaviors (AI moves, payment methods, parking/scheduling/replenishment/pricing strategies) |
+| **State** | Vending Machine | Manage complex state-dependent behavior and transitions |
+| **Manager** | Vending Machine | Separate concerns into specialized management classes |
 | **Command** | Chess, Snakes And Ladders | Encapsulate actions (moves, dice rolls) |
 | **Observer** | Parking Lot, Elevator System, Inventory Management, Vehicle Rental | Update display boards and notifications |
 | **Builder** | Inventory Management | Complex object creation with optional parameters |
